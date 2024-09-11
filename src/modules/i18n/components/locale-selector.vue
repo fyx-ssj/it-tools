@@ -3,6 +3,14 @@ const { availableLocales, locale } = useI18n();
 
 const localesLong: Record<string, string> = {
   zh: '中文',
+  en: 'English',
+  de: 'Deutsch',
+  es: 'Español',
+  fr: 'Français',
+  pt: 'Português',
+  ru: 'Русский',
+  uk: 'Українська',
+  vi: 'Tiếng Việt',
 };
 
 const localeOptions = computed(() =>
@@ -17,7 +25,7 @@ const localeOptions = computed(() =>
   <c-select
     v-model:value="locale"
     :options="localeOptions"
-    placeholder="中文"
+    placeholder="请选择语言"
     w-100px
   />
 </template>
