@@ -58,7 +58,7 @@ const tools = computed<ToolCategory[]>(() => [
         </div>
 
         <CollapsibleToolMenu :tools-by-category="tools" />
-
+        <!--
         <div class="footer">
           <div>
             IT-Tools
@@ -86,6 +86,7 @@ const tools = computed<ToolCategory[]>(() => [
             </c-link>
           </div>
         </div>
+      -->
       </div>
     </template>
 
